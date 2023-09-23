@@ -5,8 +5,12 @@
   padding: 0;
 }
 
+html {
+}
+
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: serif;
+  margin: 0;
 }
 
 a {
@@ -117,7 +121,7 @@ a {
 .information {
   padding-left: 120px;
   padding-right: 120px;
-  padding-bottom: 60px;
+  /* background-color: #e5e7eb; */
 }
 
 .information-header {
@@ -155,4 +159,27 @@ a {
   display: flex;
   text-align: center;
   padding: 10px;
+}
+
+.quote {
+  display: flex;
+  flex-direction: column;
+  padding: 150px;
+  background-color: #e5e7eb;
+}
+
+.quote-text {
+  display: flex;
+  flex: 1;
+  font-size: 36px;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.author {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 22px;
+  font-weight: 600;
+  padding: 12px;
 }
